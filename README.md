@@ -6,10 +6,9 @@ Details of Bayesian Structural Poisson model of Long Temporal Trend and Seasonal
 We fitted to data a Structural Poisson model used in similar studies (Villar-Hernández et al., 2022; Costafreda, 2017). The random variable Y_t that represents the number of fires at a given time t (month) for a specific biome, can take values y_t  = 0,1,2,…, and so on. The external covariates in our analysis were the following meteorological variables: maximum and minimum monthly temperature (Tmax and Tmin, respectively, measured in ºC), average monthly wind speed (WS, measured in ms^(-1)), monthly precipitation (P, measured in mm), and monthly evaporation (ETo, measured in mm).
 
 The following two equations form the foundation of our modeling approach:
-	Y_t |λ_t∼Po(λ_t ),t=1,2,…,
-(1)
+	$Y_t |\lambda_t∼Po(λ_t ),t=1,2,…,$
 
-	ln⁡〖(λ_t)〗=x_t^T β+m_t+s_t+u_t	(2)
+	$\ln⁡(\lambda_t)=x_t^T \beta+m_t+s_t+u_t$
 
 Where:
 Po denoted the Poisson distribution
